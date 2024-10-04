@@ -1,0 +1,129 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "color": "White",
+      "price": 24000,
+      "engine": "2.5L 4-cylinder",
+      "fuelType": "Gasoline",
+      "transmission": "Automatic",
+      "mileage": 15000,
+      "location": "New York",
+      "isFree": false,
+      "images": {
+        "main": "images/toyota_camry_2022_main.jpg",
+        "additional": [
+          "images/toyota_camry_2022_1.jpg",
+          "images/toyota_camry_2022_2.jpg",
+          "images/toyota_camry_2022_3.jpg"
+        ]
+      },
+      "rentalPricePerDay": 50,
+      "steeringWheelSide": "Left",
+      "category": "Sedan"
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "color": "Blue",
+      "price": 22000,
+      "engine": "2.0L 4-cylinder",
+      "fuelType": "Gasoline",
+      "transmission": "Manual",
+      "mileage": 12000,
+      "location": "California",
+      "isFree": false,
+      "images": {
+        "main": "images/honda_civic_2021_main.jpg",
+        "additional": [
+          "images/honda_civic_2021_1.jpg",
+          "images/honda_civic_2021_2.jpg",
+          "images/honda_civic_2021_3.jpg"
+        ]
+      },
+      "rentalPricePerDay": 50,
+      "steeringWheelSide": "Left",
+      "category": "Sedan"
+    },
+    {
+      "id": 3,
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2023,
+      "color": "Red",
+      "price": 35000,
+      "engine": "5.0L V8",
+      "fuelType": "Gasoline",
+      "transmission": "Automatic",
+      "mileage": 5000,
+      "location": "Texas",
+      "isFree": false,
+      "images": {
+        "main": "images/ford_mustang_2023_main.jpg",
+        "additional": [
+          "images/ford_mustang_2023_1.jpg",
+          "images/ford_mustang_2023_2.jpg",
+          "images/ford_mustang_2023_3.jpg"
+        ]
+      },
+      "rentalPricePerDay": 50,
+      "steeringWheelSide": "Left",
+      "category": "Coupe"
+    },
+    {
+      "id": 4,
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2022,
+      "color": "Black",
+      "price": 55000,
+      "engine": "5.3L V8",
+      "fuelType": "Gasoline",
+      "transmission": "Automatic",
+      "mileage": 10000,
+      "location": "Florida",
+      "isFree": false,
+      "images": {
+        "main": "images/chevrolet_tahoe_2022_main.jpg",
+        "additional": [
+          "images/chevrolet_tahoe_2022_1.jpg",
+          "images/chevrolet_tahoe_2022_2.jpg",
+          "images/chevrolet_tahoe_2022_3.jpg"
+        ]
+      },
+      "rentalPricePerDay": 50,
+      "steeringWheelSide": "Left",
+      "category": "SUV"
+    },
+    {
+      "id": 5,
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2022,
+      "color": "Gray",
+      "price": 42000,
+      "engine": "Electric",
+      "fuelType": "Electric",
+      "transmission": "Automatic",
+      "mileage": 20000,
+      "location": "Nevada",
+      "isFree": false,
+      "images": {
+        "main": "images/tesla_model3_2022_main.jpg",
+        "additional": [
+          "images/tesla_model3_2022_1.jpg",
+          "images/tesla_model3_2022_2.jpg",
+          "images/tesla_model3_2022_3.jpg"
+        ]
+      },
+      "rentalPricePerDay": 50,
+      "steeringWheelSide": "Left",
+      "category": "Sedan"
+    }
+  ]
+}
