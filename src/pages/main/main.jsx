@@ -1,9 +1,12 @@
 import React from "react";
+import Head from "../../components/head/head";
 
 const Main = () => {
   return (
     <div>
-      <div>Main</div>
+      <div>
+        <Head />
+      </div>
     </div>
   );
 };
