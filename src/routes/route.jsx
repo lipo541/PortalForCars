@@ -8,6 +8,7 @@ import Registration from "../pages/registration/registration";
 import Rental from "../pages/rental/rental";
 import Review from "../pages/reviews/review";
 import Error from "../pages/error";
+import Aboutus from "../pages/aboutus/aboutus";
 
 const Remoute = () => {
   return (
@@ -19,6 +20,7 @@ const Remoute = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/rental" element={<Rental />} />
       <Route path="/review" element={<Review />} />
+      <Route path="/aboutus" element={<Aboutus />} />
       <Route path="/*" element={<Error />} />
     </Routes>
   );

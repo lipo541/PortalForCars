@@ -1,1 +1,48 @@
+.head_container {
+  display: flex;
+  justify-content: space-between;
+}
 
+.login_logo {
+  width: 50px;
+}
+.left_head {
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  width: 50px;
+}
+.left_head h1 {
+  font-family: volkov;
+  font-weight: 700;
+  color: #484848;
+}
+
+.middle_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.costum_link {
+  text-decoration: none;
+  color: #484848;
+  font-family: popins;
+  font-size: 1.3em; /* Removes underline */
+}
+
+.login_link {
+  text-decoration: none;
+  color: #484848;
+  font-family: popins;
+  font-size: 1.3em;
+}
+.signup_link {
+  text-decoration: none;
+  color: #484848;
+  font-family: popins;
+  font-size: 1.3em;
+}
