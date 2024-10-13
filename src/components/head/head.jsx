@@ -1,21 +1,45 @@
 import React from "react";
 import "./head.css";
-import vehicle from "../../asset/logo/vehicle.png";
-import login from "../../asset/logo/log-in.png";
+import { Link } from "react-router-dom";
+import logo from "../../asset/logo/car.png";
 
 const Head = () => {
   return (
     <header>
       <div className="head_container">
         <div className="left_head">
-          <img src={vehicle} alt="" />
+          <h1>Car Rent</h1>
+          <img className="logo" src={logo} alt="" />
         </div>
         <div className="middle_head">
-          <input className="search" type="search" />
-          <button className="search_button">search</button>
-        </div>
-        <div>
-          <img className="login_logo" src={login} alt="" />
+          <Link className="costum_link" to="./">
+            main
+          </Link>
+          <Link className="costum_link" to="./rental">
+            rental
+          </Link>
+          <Link className="costum_link" to="./prices">
+            prices
+          </Link>
+          <Link className="costum_link" to="./contacts">
+            contacts
+          </Link>
+          <Link className="costum_link" to="./review">
+            review
+          </Link>
+          <Link className="costum_link" to="./aboutus">
+            aboutus
+          </Link>
+          <button className="login_button">
+            <Link className="login_link" to="./login">
+              login
+            </Link>
+          </button>
+          <button className="registration_button">
+            <Link className="signup_link" to="./registration">
+              sign up
+            </Link>
+          </button>
         </div>
       </div>
     </header>
