@@ -4,3 +4,10 @@
   padding-right: 100px;
   background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
 }
+
+@media screen and (max-width: 760px) {
+  .App {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

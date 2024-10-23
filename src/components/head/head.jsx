@@ -8,7 +8,6 @@ const Head = () => {
     <header>
       <div className="head_container">
         <div className="left_head">
-          <h1>Car Rent</h1>
           <img className="logo" src={logo} alt="" />
         </div>
         <div className="middle_head">
@@ -30,7 +29,7 @@ const Head = () => {
           <Link className="costum_link" to="./aboutus">
             aboutus
           </Link>
-          <button className="login_button">
+          {/* <button className="login_button">
             <Link className="login_link" to="./login">
               login
             </Link>
@@ -39,7 +38,7 @@ const Head = () => {
             <Link className="signup_link" to="./registration">
               sign up
             </Link>
-          </button>
+          </button> */}
         </div>
       </div>
     </header>

@@ -1,48 +1,53 @@
+/* General styles */
 .head_container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-.login_logo {
-  width: 50px;
-}
 .left_head {
   display: flex;
-  gap: 10px;
+  align-items: center;
 }
 
 .logo {
   width: 50px;
-}
-.left_head h1 {
-  font-family: volkov;
-  font-weight: 700;
-  color: #484848;
+  height: auto;
+  margin-left: 10px;
 }
 
 .middle_head {
   display: flex;
-  justify-content: center;
+  gap: 20px;
   align-items: center;
-  gap: 15px;
 }
 
-.costum_link {
-  text-decoration: none;
-  color: #484848;
-  font-family: popins;
-  font-size: 1.3em; /* Removes underline */
-}
-
-.login_link {
-  text-decoration: none;
-  color: #484848;
-  font-family: popins;
-  font-size: 1.3em;
-}
+.costum_link,
+.login_link,
 .signup_link {
   text-decoration: none;
-  color: #484848;
-  font-family: popins;
-  font-size: 1.3em;
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Hiding the middle_head section for screens 760px or smaller */
+@media screen and (max-width: 760px) {
+  .middle_head {
+    display: none;
+  }
 }
